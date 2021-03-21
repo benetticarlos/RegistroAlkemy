@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  background-color: #12161c;
+  padding: 0% !important;
+}
+
+.navbar-brand {
+  text-align: justify;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 4vw;
+}
+
+.container {
+  width: 100%;
+  padding: 0% !important;
+}
+
+.container,
+.container-sm,
+.container-md {
+  max-width: 100% !important;
+  margin: 0% !important;
+}
+
+.container-fluid {
+  background-color: #12161c;
+  padding: 10px;
+}
+
+.cabecera {
+  background-color: rgba(18, 22, 28, 0.7);
+
+  /* border-style: solid;
+border-width: 5px;
+border-color: black; */
+}
+
+.balanceActual {
+  color: #ffff;
+  /* border-style: solid;
+  border-width: 5px; */
+  /* border-color: blue; */
+  width: 40%;
+}
+
+#ContenedorFormulario {
+  text-align: -webkit-right;
+}
+
+#ContenidoFormulario {
+  max-width: fit-content;
+}
+
+.row {
+  /* place-content: flex-end; */
+  margin: 0% !important;
+  display: -webkit-box;
+}
+
+#exampleFormControlTextarea1 {
+  width: 55%;
+}
+
+.mb-3 {
+  text-align: -webkit-center;
+}
+
+.btn {
+  margin-left: 35vw;
+}
+
+.agregarRegistro {
+  /* border-style: solid;
+border-width: 5px; */
+  /* border-color: red; */
+  width: 85%;
+}
+
+#exampleFormControlTextarea1 {
+  margin-right: auto;
+  margin-left: 14px;
+}
+
+#BotonForm {
+  margin-top: -65px;
+  background-color: #f0b90b;
+  border: none !important;
+  color: #12161c;
+  font-weight: bold;
+  border-radius: 10px;
+  /* content: "prrrrrrrrr"; */
+}
+
+#BotonForm:before {
+  content: "Agregar registro";
+}
+
+#valorBalance {
+  margin-top: 3vh;
+  color: #f0b90b;
+}
+
+#ActualizarBalance {
+  background-color: #12161c;
+  margin: 0;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#autoSizingSelect {
+  padding: 7px;
+  border-radius: 10px;
+}
+#autoSizingInput {
+  border-radius: 10px;
+}
+
+.ultimosRegistros {
+}
+
+#tituloTabla {
+  font-size: 35px;
+  margin-top: 3vh;
+  font-weight: bold;
+}
+
+thead {
+  /* background-color: white !important; */
+}
+
+tr {
+  /* background-color: rgba(18, 22, 28, .7); */
+}
+
+/* media queries */
+
+@media (max-width: 870px) {
+  .row {
+    display: flex;
+  }
+
+  .col-auto {
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+  }
+
+  #BotonForm:before {
+    content: "Agregar";
+  }
+}
+
+@media (max-width: 560px) {
+  .cabecera {
+    flex-flow: wrap;
+  }
+
+  #ContenidoFormulario {
+    /* text-align: center; */
+    text-align: -webkit-center;
+  }
+
+  .row {
+    width: 60%;
+    place-content: center;
+  }
+
+  #exampleFormControlTextarea1 {
+    margin: 0%;
+  }
+
+  #BotonForm {
+    margin-top: 4%;
+    margin-left: 0%;
+  }
+}
